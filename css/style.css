@@ -24,6 +24,10 @@ body{
     margin-right:5px;
 }
 
+.margin-bottom-fourty{
+    margin-bottom:40px;
+}
+
 /*BUTTON TYPE*/
 .border-radius{
     border-radius: 20px;
@@ -266,12 +270,14 @@ body{
 }
  .readytoplay{
     margin-bottom: 40px;
+}
+
+.stars{
     background-image: url("../img/stars.svg");
-    background-size: cover;
- }
-
-
-
+    background-size: contain;
+    min-height: 30px;
+    min-width: 500px;
+}
 
 /*MAIN CARD CONTAINER*/
 
