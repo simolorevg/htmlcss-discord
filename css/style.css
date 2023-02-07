@@ -322,12 +322,19 @@ body{
 /*TOP FOOTER COLUMNS*/
 
 .maincolumn{
-    flex-grow:0.4;
-    background-color: #ff7671;
+    width:500px;
+    
 
     /*DEBUG*/
-    /* border: 2px dashed white; */
+    /* border: 2px dashed white;
+    background-color: #ff7671; */
 }
+
+.maincolumn h2{
+    color:#6787d6;
+}
+
+
 
 .linkpart{
     background-color: #00b4a6;
@@ -341,6 +348,15 @@ body{
     /*DEBUG*/
     /* border: 2px dashed black; */
 }
+
+.language{
+    color:white;
+}
+
+.language img{
+    width:20px;
+}
+
 
 /*BOTTOM FOOTER SECTION*/
 
