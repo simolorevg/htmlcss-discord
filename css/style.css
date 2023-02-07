@@ -27,6 +27,11 @@ body{
     color: black;
 }
 
+.white-button a{
+    color: inherit;
+    text-decoration: none;
+}
+
 .small-button{
     width: 4rem;
     padding: 8px;
@@ -34,7 +39,7 @@ body{
 
 .large-button{
     width:9rem;
-    height:5rem;
+    height:3rem;
 }
 
 /*FLEXBOX*/
@@ -118,10 +123,7 @@ body{
     /* border: 1px dashed black; */
 }
 
-.header-login a{
-    color: inherit;
-    text-decoration: none;
-}
+
 
 .header-link{
     display:flex;
@@ -183,11 +185,13 @@ body{
     font-size: 1rem;
 }
 
+
+
 /*MAIN*/
 
-.greybackground{
-    /* background-color: #d7d4cf; */
-}
+/* .greybackground{
+    /* background-color: #d7d4cf;
+ } */
 
 
 
