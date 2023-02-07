@@ -32,6 +32,10 @@ body{
     color:white;
 }
 
+.purple-button{
+    background-color: #6787d6;
+    color: white;
+}
 
 .small-button{
     width: 4rem;
@@ -55,6 +59,12 @@ body{
     color:inherit;
     text-decoration: none;
 }
+
+.purple-button a{
+    color: inherit;
+    text-decoration:none;
+}
+
 
 /*FLEXBOX*/
 
@@ -93,9 +103,18 @@ body{
     align-content:stretch;
 }
 
+.colcenter{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
 .flexgrw-zerothree{
     flex-grow: 0.3;
 }
+
+
 
 /*HEADER*/
 
@@ -215,17 +234,25 @@ body{
 
 /*BOTTOM MAIN PART*/
 .bottom-container{
+    margin-top:70px;
     padding-top:20px;
     padding-bottom:20px;
 }
 
 .bottom-banner{
-    background-color: #008a30;
-
-    /*DEBUG*/
-    /* border: 2px dashed black; */
     min-height: 700px;
+    /*DEBUG*/
+    /* border: 2px dashed black; 
+    background-color: #008a30;*/
+    
 }
+
+.banner-section{
+    text-align: center;
+}
+ .readytoplay{
+    margin-bottom: 40px;
+ }
 
 
 
