@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+
 /*COMMON*/
 .center{
     width:80%;
@@ -14,6 +15,14 @@
 body{
     font-family:sans-serif;
 }
+
+/*BUTTON TYPE*/
+
+
+
+
+
+
 
 /*FLEXBOX*/
 
@@ -57,7 +66,7 @@ body{
 /*HEADER*/
 
 .header-back{
-    background-color: #a0dbe5;
+    background-color: #005fe6;
 
     /*DEBUG*/
     /* border: 2px solid black; */
@@ -68,12 +77,13 @@ body{
 /*HEADER NAVBAR*/
 
 .header-nav{
-    background-color: #e9a11f;
     margin:10px;
     height:40px;
+    color: white;
 
     /*DEBUG*/
-    /* border: 1px dashed black; */
+    /* border: 1px dashed black;
+    background-color: #e9a11f; */
 }
 
 .logo-header{
@@ -83,7 +93,7 @@ body{
     padding:10px;
 
     /*DEBUG*/
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
 }
 
 .header-login{
@@ -92,7 +102,12 @@ body{
     text-align: right;
     
     /*DEBUG*/
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
+}
+
+.header-login a{
+    color: inherit;
+    text-decoration: none;
 }
 
 .header-link{
@@ -101,7 +116,7 @@ body{
     padding:10px;
     
     /*DEBUG*/
-    border:1px dashed black;
+    /* border:1px dashed black; */
 }
 
 .header-link ul{
@@ -111,13 +126,13 @@ body{
 
 .header-link li{
     list-style-type: none;
-    margin: 0 10px;
+    margin: 0 30px;
 }
 
 
 .header-link li a{
     text-decoration: none;
-    color: black;
+    color: inherit;
 }
 
 
