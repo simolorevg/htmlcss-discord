@@ -18,7 +18,13 @@ body{
 
 /*BUTTON TYPE*/
 
-
+.white-button-small{
+    width: 3rem;
+    padding: 10px;
+    text-align: center;
+    background-color: #ffffff;
+    color: black;
+}
 
 
 
@@ -99,7 +105,6 @@ body{
 .header-login{
     width:200px;
     padding:10px;
-    text-align: right;
     
     /*DEBUG*/
     /* border: 1px dashed black; */
