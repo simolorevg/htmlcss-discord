@@ -12,9 +12,16 @@
     margin:0 auto;
 }
 
+p{
+    font-size: 1rem;
+}
 
 body{
     font-family:sans-serif;
+}
+
+.margin-right{
+    margin-right:5px;
 }
 
 /*BUTTON TYPE*/
@@ -39,6 +46,7 @@ body{
 
 .small-button{
     width: 4rem;
+    height:2rem;
     padding: 8px;
 }
 
@@ -108,6 +116,12 @@ body{
     flex-direction:column;
     justify-content: center;
     align-items: center;
+}
+
+.colspacearound{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .flexgrw-zerothree{
@@ -252,6 +266,8 @@ body{
 }
  .readytoplay{
     margin-bottom: 40px;
+    background-image: url("../img/stars.svg");
+    background-size: cover;
  }
 
 
@@ -290,7 +306,7 @@ body{
 }
 
 .title-item{
-    font-size:30px;
+    font-size:40px;
     padding-top:30px;
     margin-bottom:30px;
 }
@@ -304,6 +320,7 @@ body{
 
 .top-footer{
     margin-top:20px;
+    margin-bottom:40px;
 
     /*DEBUG*/
     min-height:400px;
@@ -311,61 +328,82 @@ body{
 }
 
 .bottom-footer{
-    margin-top:20px;
-    background-color: #0dffd5;
-
+    margin-top:20px;   
     /*DEBUG*/
     min-height:100px;
-    /* border: 2px dashed red; */
+    /* border: 2px dashed red;
+    background-color: #0dffd5; */
 }
 
 /*TOP FOOTER COLUMNS*/
 
 .maincolumn{
-    width:500px;
-    
+    width:300px;
 
     /*DEBUG*/
     /* border: 2px dashed white;
     background-color: #ff7671; */
 }
 
-.maincolumn h2{
+.footer-titles{
     color:#6787d6;
 }
 
 
-
 .linkpart{
-    background-color: #00b4a6;
     flex-grow: 1;
     /*DEBUG*/
-    /* border: 2px dashed white; */
+    /* border: 2px dashed white;
+    background-color: #00b4a6; */
 }
 
 .linkcolumn{
     width: calc(100%/4);
+    color: white;
     /*DEBUG*/
     /* border: 2px dashed black; */
 }
 
+.short-column{
+    height:50%;
+}
+
+.long-column{
+    height:100%;
+}
+
+.linkcolumn li{
+    list-style-type: none;
+}
+
+.linkcolumn a{
+    text-decoration: none;
+    color:inherit;
+}
+
 .language{
     color:white;
+    margin: 20px 0;
 }
 
 .language img{
     width:20px;
 }
 
+.icons-list{
+    margin-top:20px;
+}
+
 
 /*BOTTOM FOOTER SECTION*/
 
-.frappecolour{
+/* .frappecolour{
     background-color: #ffb2b8;
-}
+} */
 
 .bottom-footer-block{
-    width: 60px;
+    width: 80px;
+    font-size:0.7rem;
     padding: 5px;
     text-align: center;
 }
