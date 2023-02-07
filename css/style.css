@@ -27,10 +27,11 @@ body{
     color: black;
 }
 
-.white-button a{
-    color: inherit;
-    text-decoration: none;
+.black-button{
+    background-color: black;
+    color:white;
 }
+
 
 .small-button{
     width: 4rem;
@@ -38,8 +39,21 @@ body{
 }
 
 .large-button{
-    width:9rem;
+    width:9.5rem;
     height:3rem;
+}
+
+
+/*ANCOR TAG COLOR*/
+
+.white-button a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.black-button a{
+    color:inherit;
+    text-decoration: none;
 }
 
 /*FLEXBOX*/
@@ -79,7 +93,9 @@ body{
     align-content:stretch;
 }
 
-
+.flexgrw-zerothree{
+    flex-grow: 0.3;
+}
 
 /*HEADER*/
 
