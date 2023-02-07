@@ -20,6 +20,10 @@ body{
     font-family:sans-serif;
 }
 
+.purpletext{
+    color:#6787d6;
+}
+
 .margin-right{
     margin-right:5px;
 }
@@ -354,8 +358,9 @@ body{
 }
 
 .footer-titles{
-    color:#6787d6;
+    font-size:2rem;
 }
+
 
 
 .linkpart{
