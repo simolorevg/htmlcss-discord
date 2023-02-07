@@ -12,6 +12,7 @@
     margin:0 auto;
 }
 
+
 body{
     font-family:sans-serif;
 }
@@ -21,17 +22,20 @@ body{
     border-radius: 20px;
 }
 
-.white-button-small{
-    width: 4rem;
-    padding: 8px;
-    text-align: center;
+.white-button{
     background-color: #ffffff;
     color: black;
 }
 
+.small-button{
+    width: 4rem;
+    padding: 8px;
+}
 
-
-
+.large-button{
+    width:9rem;
+    height:5rem;
+}
 
 /*FLEXBOX*/
 
@@ -145,18 +149,38 @@ body{
 }
 
 
+
+/*JUMBOTRON SECTION*/
 .header-banner-back{
-    background-color: #000282;
-    min-height: 500px;
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    min-height: 660px;
 }
 
 .header-banner{
-    background-color: #ff79e8;
     min-height: 400px;
-    min-width: 700px;
+    max-width: 700px;
+    color: white;
+    text-align: center;
+    padding-top:70px;
 
     /*DEBUG*/
-    /* border: 3px dashed black; */
+    /* border: 3px dashed black;
+    background-color: #ff79e8; */
+}
+
+.header-banner h1{
+    font-size: 3rem;
+    margin-bottom:50px;
+}
+
+.header-banner p{
+    font-size:1.4rem;
+}
+
+.banner-buttons{
+    margin-top:20px;
+    font-size: 1rem;
 }
 
 /*MAIN*/
@@ -198,23 +222,30 @@ body{
     min-height: 500px;
 }
 
-.bluecard{
-    background-color: #008fff;
+.photocard{
+    
     flex-grow: 1;
 
     /*DEBUG*/
-    /* border: 1px dashed black; */
+    /* border: 1px dashed black; 
+    background-color: #008fff;*/
     min-height: 300px;
 }
 
 .pinkcard{
-    background-color:#ffbec4;
-    flex-grow: 0.6;
+    
+    flex-grow: 0.2;
 
     /*DEBUG*/
-    /* border: 1px dashed black; */
+    /* border: 1px dashed black; 
+    background-color:#ffbec4;*/
     min-height: 300px;
 }
+
+.title-item{
+    font-size:50px;
+}
+
 
 /*FOOTER*/
 
